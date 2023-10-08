@@ -67,3 +67,37 @@
   width: 100%;
   height: 100%;
 }
+
+.resume-section .col-md-6 .card {
+  height: 100%;
+}
+
+.parrafos-footer:not(:last-child)
+{
+  margin-bottom: 20px;
+}
+
+.parrafos-footer p{
+  margin-bottom: 5px;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.custom-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 25px;
+  background-color: #20c997;
+  color: #343a40;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #17a2b8;
+}
