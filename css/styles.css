@@ -656,6 +656,11 @@ pre code {
   margin-left: -0.75rem;
 }
 
+.row:not(:last-child)
+{
+  margin-bottom: 20px;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -1231,7 +1236,7 @@ pre code {
   }
 
   .col-md-6 {
-    flex: 0 0 50%;
+    flex: 1 0 50%;
     max-width: 50%;
   }
 
@@ -7022,6 +7027,7 @@ button.bg-dark:focus {
 
 .flex-grow-1 {
   flex-grow: 1 !important;
+  margin-right: 20px;
 }
 
 .flex-shrink-0 {
