@@ -5,6 +5,48 @@
   background-attachment: fixed;
 }
 
+.bg-img::before {
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bg-section-4 {
+  position: relative;
+}
+
+.bg-section-4::before {
+  background-image: url("../assets/img/moon_to_mars3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-section-5 {
+  position: relative;
+}
+
+.bg-section-5::before {
+  background-image: url("../assets/img/gloabal_colaboration2.jpg");
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.bg-section-6 {
+  position: relative;
+}
+
+.bg-section-6::before {
+  background-image: url("../assets/img/impact-life.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
 .bg-diamonds::before {
   background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='50' height='50' patternTransform='scale(3) rotate(55)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M50 25L37.5 50 25 25 37.5 0zm-25 0L12.5 50 0 25 12.5 0z'  stroke-width='0.5' stroke='hsla(231, 48%, 48%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-51,-300)' fill='url(%23a)'/></svg>");
   content: " ";
