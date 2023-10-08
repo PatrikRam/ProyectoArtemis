@@ -11,10 +11,20 @@
   content: " ";
   display: block;
   position: absolute;
-  left: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   z-index: -1;
+}
+
+.bg-section-1::before {
+  background-image: url("../assets/img/nasa_bg-1.jpg");
+  background-size: cover;
+}
+
+.bg-section-2::before {
+  background-image: url("../assets/img/nasa_bg-2.jpg");
+  background-size: cover;
 }
 
 .bg-section-4 {
